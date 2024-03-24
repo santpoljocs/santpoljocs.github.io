@@ -1,4 +1,43 @@
-baseURL = 'https://example.org/'
-languageCode = 'en-us'
-title = 'My New Hugo Site'
+# baseURL = 'https://santpoljocs.github.io/'
+languageCode = 'ca-es'
+title = 'Sant Pol Jocs'
 theme = 'ananke'
+
+
+DefaultContentLanguage = "ca"
+SectionPagesMenu = "main"
+Paginate = 3 # this is set low for demonstrating with dummy content. Set to a higher number
+googleAnalytics = ""
+enableRobotsTXT = true
+
+[languages]
+  [languages.ca]
+    title = "Sant Pol Jocs"
+    weight = 1
+    contentDir = "content"
+    # languageDirection = 'rtl' for Right-To-Left languages
+#   [languages.ca]
+#     title = "Ananke Fr"
+#     weight = 2
+#     contentDir = "content/fr"
+
+[sitemap]
+  changefreq = "monthly"
+  priority = 0.5
+  filename = "sitemap.xml"
+
+[params]
+  text_color = ""
+  author = "Sant Pol Jocs"
+  favicon = "favicon.ico"
+  site_logo = "images/logo-color.png"
+  description = "The last theme you'll ever need. Maybe."
+  # choose a background color from any on this page: https://tachyons.io/docs/themes/skins/ and preface it with "bg-"
+  background_color_class = "bg-black"
+  recent_posts_number = 3
+  mainSections = ['posts']
+
+[[params.ananke_socials]]
+name = "instagram"
+url = "https://www.instagram.com/santpoljocs"
+label = "Sant Pol Jocs en Instagram"
