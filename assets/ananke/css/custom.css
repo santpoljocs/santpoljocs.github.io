@@ -1,0 +1,7 @@
+header{
+    backdrop-filter: blur(10px) !important;
+}
+
+nav a img {
+    width: 7rem;
+}
