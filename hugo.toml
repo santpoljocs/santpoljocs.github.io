@@ -1,4 +1,4 @@
-# baseURL = 'https://santpoljocs.github.io/'
+baseURL = 'https://santpoljocs.cat/'
 languageCode = 'ca-es'
 title = 'Sant Pol Jocs'
 theme = 'ananke'
