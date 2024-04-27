@@ -104,3 +104,23 @@ body {
 .mobile-nav-toggle {
   color: #1b2a2f;
 }
+
+
+/*--------------------------------------------------------------
+# Activitats Section
+--------------------------------------------------------------*/
+#activitats {
+  padding: 60px 0 30px 0;
+}
+
+
+
+
+/*--------------------------------------------------------------
+# Venue Section
+--------------------------------------------------------------*/
+
+#venue .venue-info {
+  /* background: url("../img/venue-gallery/parc-litoral-1.jpeg") top center no-repeat; */
+  background-size: cover;
+}
