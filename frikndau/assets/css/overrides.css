@@ -124,3 +124,10 @@ body {
   /* background: url("../img/venue-gallery/parc-litoral-1.jpeg") top center no-repeat; */
   background-size: cover;
 }
+
+
+
+
+#contact .contact-phone {
+  border-left: none;
+}
