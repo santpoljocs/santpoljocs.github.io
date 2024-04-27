@@ -34,7 +34,7 @@ body {
 #header.header-scrolled .navbar a:hover,
 #header.header-scrolled .navbar .active,
 #header.header-scrolled .navbar .active:focus,
-#header.header-scrolled .navbar li:hover > a {
+#header.header-scrolled .navbar li:hover>a {
   color: #f6f6de;
 }
 
@@ -89,7 +89,7 @@ body {
 .navbar a:hover,
 .navbar .active,
 .navbar .active:focus,
-.navbar li:hover > a {
+.navbar li:hover>a {
   color: #1b2a2f;
 }
 
@@ -130,4 +130,34 @@ body {
 
 #contact .contact-phone {
   border-left: none;
+}
+
+#contact .contact-instagram {
+  margin-bottom: 20px;
+}
+
+@media (min-width: 768px) {
+
+  #contact .contact-instagram {
+    padding: 20px 0;
+  }
+}
+
+@media (min-width: 768px) {
+  #contact .contact-instagram {
+    border-right: 1px solid #ddd;
+  }
+}
+
+
+#footer .footer-logo h1{
+  text-transform: uppercase;
+  color: #f6f6de;
+  font-size: 36px;
+  font-weight: 700;
+  letter-spacing: 3px;
+}
+
+#footer .footer-logo h1 img{
+  margin-right: 10px;
 }
