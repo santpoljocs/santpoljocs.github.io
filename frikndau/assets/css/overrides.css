@@ -8,6 +8,16 @@ body {
   color: #1b2a2f;
 }
 
+#header #logo img {
+  vertical-align: text-top;
+}
+
+@media (max-width: 992px) {
+  #header #logo img {
+    max-height: 40px;
+  }
+}
+
 #header.header-scrolled #logo h1 a {
   color: #f6f6de;
 }
@@ -50,7 +60,7 @@ body {
 }
 
 #hero .logo {
-  height: 60vh;
+  height: 50vh;
   width: auto;
   min-height: 200px;
   max-height: 600px;
