@@ -1,0 +1,96 @@
+body {
+  background-color: #f6f6de;
+  color: #1b2a2f;
+}
+
+#header #logo h1 a,
+#header #logo h1 a:hover {
+  color: #1b2a2f;
+}
+
+#header.header-scrolled #logo h1 a {
+  color: #f6f6de;
+}
+
+#header.header-scrolled .mobile-nav-toggle {
+  color: #f6f6de;
+}
+
+#header.header-scrolled .navbar a,
+#header.header-scrolled .navbar a:focus {
+  color: rgb(246 246 223 / 54%);
+}
+
+#header.header-scrolled .navbar a:hover,
+#header.header-scrolled .navbar .active,
+#header.header-scrolled .navbar .active:focus,
+#header.header-scrolled .navbar li:hover > a {
+  color: #f6f6de;
+}
+
+#hero {
+  background-image: none;
+  background-color: initial;
+}
+
+#hero:before {
+  background: initial;
+}
+
+#hero h1 {
+  color: initial;
+}
+
+#hero p {
+  color: initial;
+}
+
+#hero h1 span {
+  /*color: #DF722D;*/
+}
+
+#hero .logo {
+  height: 60vh;
+  width: auto;
+  min-height: 200px;
+  max-height: 600px;
+  /* background: radial-gradient(#f82249 50%, rgba(101, 111, 150, 0.15) 52%);
+  border-radius: 50%; */
+  display: block;
+  position: relative;
+  overflow: hidden;
+}
+
+#hero .about-btn {
+  color: #f82249;
+  border: 2px solid #f82249;
+}
+
+#hero .about-btn:hover {
+  background: #f82249;
+  color: #fff;
+}
+
+.navbar a,
+.navbar a:focus {
+  color: rgba(27, 42, 47, 0.8);
+}
+
+.navbar a:hover,
+.navbar .active,
+.navbar .active:focus,
+.navbar li:hover > a {
+  color: #1b2a2f;
+}
+
+.navbar-mobile {
+  background: #f6f6de;
+}
+
+.navbar-mobile ul {
+  background-color: #f6f6de;
+}
+
+.mobile-nav-toggle {
+  color: #1b2a2f;
+}
