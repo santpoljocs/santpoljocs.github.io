@@ -12,7 +12,7 @@ body {
   vertical-align: text-top;
 }
 
-#hero > div > p > span{
+#hero > div > p > span {
   color: #f82249;
   text-transform: uppercase;
 }
@@ -39,7 +39,7 @@ body {
 #header.header-scrolled .navbar a:hover,
 #header.header-scrolled .navbar .active,
 #header.header-scrolled .navbar .active:focus,
-#header.header-scrolled .navbar li:hover>a {
+#header.header-scrolled .navbar li:hover > a {
   color: #f6f6de;
 }
 
@@ -94,7 +94,7 @@ body {
 .navbar a:hover,
 .navbar .active,
 .navbar .active:focus,
-.navbar li:hover>a {
+.navbar li:hover > a {
   color: #1b2a2f;
 }
 
@@ -110,16 +110,12 @@ body {
   color: #1b2a2f;
 }
 
-
 /*--------------------------------------------------------------
 # Activitats Section
 --------------------------------------------------------------*/
 #activitats {
   padding: 60px 0 30px 0;
 }
-
-
-
 
 /*--------------------------------------------------------------
 # Venue Section
@@ -130,12 +126,9 @@ body {
   background-size: cover;
 }
 
-
-#venue .venue-info ul li{
+#venue .venue-info ul li {
   color: white;
 }
-
-
 
 #contact .contact-phone {
   border-left: none;
@@ -146,7 +139,6 @@ body {
 }
 
 @media (min-width: 768px) {
-
   #contact .contact-instagram {
     padding: 20px 0;
   }
@@ -158,8 +150,7 @@ body {
   }
 }
 
-
-#footer .footer-logo h1{
+#footer .footer-logo h1 {
   text-transform: uppercase;
   color: #f6f6de;
   font-size: 36px;
@@ -167,6 +158,18 @@ body {
   letter-spacing: 3px;
 }
 
-#footer .footer-logo h1 img{
+#footer .footer-logo h1 img {
   margin-right: 10px;
+}
+
+#supporters .supporter-logo {
+  background-color: white;
+}
+
+#supporters .supporter-logo img {
+  filter: grayscale(1);
+}
+
+#supporters .supporter-logo:hover img {
+  filter: none;
 }
