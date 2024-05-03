@@ -43,6 +43,27 @@ body {
   color: #f6f6de;
 }
 
+#header.header-scrolled .navbar a,
+#header.header-scrolled .navbar a:focus {
+  color: rgb(246 246 223 / 54%);
+}
+
+#header.header-scrolled .navbar-mobile a,
+#header.header-scrolled .navbar-mobile a:focus {
+  color: #1b2a2f;
+}
+
+#header.header-scrolled .navbar-mobile .mobile-nav-toggle {
+  color: #1b2a2f;
+}
+
+#header.header-scrolled .navbar-mobile a:hover,
+#header.header-scrolled .navbar-mobile .active,
+#header.header-scrolled .navbar-mobile .active:focus,
+#header.header-scrolled .navbar-mobile li:hover > a {
+  color: #f82249;
+}
+
 #hero {
   background-image: none;
   background-color: initial;
