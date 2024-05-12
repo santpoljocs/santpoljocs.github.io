@@ -12,7 +12,7 @@ body {
   vertical-align: text-top;
 }
 
-#hero > div > p > span {
+#hero>div>p>span {
   color: #f82249;
   text-transform: uppercase;
 }
@@ -39,7 +39,7 @@ body {
 #header.header-scrolled .navbar a:hover,
 #header.header-scrolled .navbar .active,
 #header.header-scrolled .navbar .active:focus,
-#header.header-scrolled .navbar li:hover > a {
+#header.header-scrolled .navbar li:hover>a {
   color: #f6f6de;
 }
 
@@ -60,7 +60,7 @@ body {
 #header.header-scrolled .navbar-mobile a:hover,
 #header.header-scrolled .navbar-mobile .active,
 #header.header-scrolled .navbar-mobile .active:focus,
-#header.header-scrolled .navbar-mobile li:hover > a {
+#header.header-scrolled .navbar-mobile li:hover>a {
   color: #f82249;
 }
 
@@ -115,7 +115,7 @@ body {
 .navbar a:hover,
 .navbar .active,
 .navbar .active:focus,
-.navbar li:hover > a {
+.navbar li:hover>a {
   color: #1b2a2f;
 }
 
@@ -193,4 +193,50 @@ body {
 
 #supporters .supporter-logo:hover img {
   filter: none;
+}
+
+
+#programDetails {
+  margin-top: 2em;
+}
+
+
+#programDetails>table>thead>tr>th {
+  text-align: center;
+  vertical-align: top;
+}
+
+#programDetails>table>tbody>tr>td {
+  text-align: center;
+  vertical-align: middle;
+}
+
+#programDetails>table>tbody>tr {
+  height: 3em;
+}
+
+#programDetails>table>tbody>tr>th {
+  min-width: 8em;
+}
+
+#programDetails>table>tbody>tr>td {
+  min-width: 10em;
+}
+
+#programDetails>table>tbody>tr>td>span {
+  font-size: 0.8em;
+  font-style: italic;
+}
+
+#programDetails>table>tbody>tr>td:empty {
+  background-color: #f6f7fd;
+}
+
+#programDetails>table>tbody>tr.global-event>th {
+  background-color: #f6f6de;
+}
+
+#programDetails>table>tbody>tr.global-event>td {
+  background-color: #f6f6de;
+  font-style: italic;
 }
