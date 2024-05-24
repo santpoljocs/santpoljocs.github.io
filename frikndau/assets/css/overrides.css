@@ -240,3 +240,55 @@ body {
   background-color: #f6f6de;
   font-style: italic;
 }
+
+
+/*  COLORFUL VERSION */
+
+#programDetails>table>tbody>tr.global-event>th {
+  background-color: #fcfcdc3e;
+}
+
+#programDetails>table>tbody>tr.global-event>td {
+  background-color: #fcfcdc3e;
+}
+
+#programDetails>table>tbody>tr>td:empty {
+  background-color: #ffffff;
+}
+
+.familiars{
+  background-color: #0bc60b9b !important;
+}
+
+.euros{
+  background-color: #47bfd69b !important;
+}
+
+.entitats{
+  background-color: #eea3ea9b !important;
+}
+
+.tallers{
+  background-color: #c1f3b89b !important;
+}
+
+.torneigs{
+  background-color: #ef6b6b9b !important;
+}
+
+.torneigs a{
+  color: black !important;
+}
+
+.ameritrash{
+  background-color: #fba7409b !important;
+}
+
+.botigues{
+  background-color: #fbe2409b !important;
+}
+
+.exterior{
+  background-color: #0d85009b !important;
+}
+
