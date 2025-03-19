@@ -1,0 +1,53 @@
+---------------------------------
+##Familia tipogràfica
+---------------------------------
+
+Countach Bold
+
+
+Para utilizar estas fuentes en una página web, copia este código en la etiqueta <head> de tu HTML.
+
+<link rel="stylesheet" href="https://use.typekit.net/bhr6ryk.css">
+Si deseas utilizar fuentes en el correo electrónico HTML, utiliza el enlace @import.
+
+Fuentes añadidas:
+Countach Bold
+font-family: "countach", sans-serif;
+font-weight: 700;
+font-style: normal;
+
+---------------------------------
+##Colors
+---------------------------------
+
+
+Text general: 
+#250520
+
+Text links / destacats en funció del fons
+#87EDB9 o #FF3C7C
+
+
+H1:
+
+Color base: 
+#250520
+Si la mida és molt gran, es pot acompanyar d'un traç de 2px amb color #87edb9
+
+
+H2 o destacats més petits:
+
+Color base: 
+#87EDB9
+Color shape: 
+#FF3C7C
+
+
+
+H3 o destacats secundaris
+
+Color: 
+#FF3C7C o #FFFFFF
+Color shape: 
+#FFB0CA
+
