@@ -1,0 +1,295 @@
+body {
+  /* background-color: #f6f6de; */
+  background-color: #f6e5d7;
+  color: #1b2a2f;
+}
+
+#header #logo h1 a,
+#header #logo h1 a:hover {
+  color: #1b2a2f;
+}
+
+#header #logo img {
+  vertical-align: text-top;
+}
+
+#hero>div>p>span {
+  color: #f82249;
+  text-transform: uppercase;
+}
+
+@media (max-width: 992px) {
+  #header #logo img {
+    max-height: 40px;
+  }
+}
+
+#header.header-scrolled #logo h1 a {
+  color: #f6f6de;
+}
+
+#header.header-scrolled .mobile-nav-toggle {
+  color: #f6f6de;
+}
+
+#header.header-scrolled .navbar a,
+#header.header-scrolled .navbar a:focus {
+  color: rgb(246 246 223 / 54%);
+}
+
+#header.header-scrolled .navbar a:hover,
+#header.header-scrolled .navbar .active,
+#header.header-scrolled .navbar .active:focus,
+#header.header-scrolled .navbar li:hover>a {
+  color: #f6f6de;
+}
+
+#header.header-scrolled .navbar a,
+#header.header-scrolled .navbar a:focus {
+  color: rgb(246 246 223 / 54%);
+}
+
+#header.header-scrolled .navbar-mobile a,
+#header.header-scrolled .navbar-mobile a:focus {
+  color: #1b2a2f;
+}
+
+#header.header-scrolled .navbar-mobile .mobile-nav-toggle {
+  color: #1b2a2f;
+}
+
+#header.header-scrolled .navbar-mobile a:hover,
+#header.header-scrolled .navbar-mobile .active,
+#header.header-scrolled .navbar-mobile .active:focus,
+#header.header-scrolled .navbar-mobile li:hover>a {
+  color: #f82249;
+}
+
+#hero {
+  background-image: none;
+  background-color: initial;
+}
+
+#hero:before {
+  background: initial;
+}
+
+#hero h1 {
+  color: initial;
+}
+
+#hero p {
+  color: initial;
+}
+
+#hero h1 span {
+  /*color: #DF722D;*/
+}
+
+#hero .logo {
+  height: 50vh;
+  width: auto;
+  min-height: 200px;
+  max-height: 600px;
+  /* background: radial-gradient(#f82249 50%, rgba(101, 111, 150, 0.15) 52%);
+  border-radius: 50%; */
+  display: block;
+  position: relative;
+  overflow: hidden;
+}
+
+#hero .about-btn {
+  color: #f82249;
+  border: 2px solid #f82249;
+}
+
+#hero .about-btn:hover {
+  background: #f82249;
+  color: #fff;
+}
+
+.navbar a,
+.navbar a:focus {
+  color: rgba(27, 42, 47, 0.8);
+}
+
+.navbar a:hover,
+.navbar .active,
+.navbar .active:focus,
+.navbar li:hover>a {
+  color: #1b2a2f;
+}
+
+.navbar-mobile {
+  background: #f6f6de;
+}
+
+.navbar-mobile ul {
+  background-color: #f6f6de;
+}
+
+.mobile-nav-toggle {
+  color: #1b2a2f;
+}
+
+/*--------------------------------------------------------------
+# Activitats Section
+--------------------------------------------------------------*/
+#activitats {
+  padding: 60px 0 30px 0;
+}
+
+/*--------------------------------------------------------------
+# Venue Section
+--------------------------------------------------------------*/
+
+#venue .venue-info {
+  /* background: url("../img/venue-gallery/parc-litoral-1.jpeg") top center no-repeat; */
+  background-size: cover;
+}
+
+#venue .venue-info ul li {
+  color: white;
+}
+
+#contact .contact-phone {
+  border-left: none;
+}
+
+#contact .contact-instagram {
+  margin-bottom: 20px;
+}
+
+@media (min-width: 768px) {
+  #contact .contact-instagram {
+    padding: 20px 0;
+  }
+}
+
+@media (min-width: 768px) {
+  #contact .contact-instagram {
+    border-right: 1px solid #ddd;
+  }
+}
+
+#footer .footer-logo h1 {
+  text-transform: uppercase;
+  color: #f6f6de;
+  font-size: 36px;
+  font-weight: 700;
+  letter-spacing: 3px;
+}
+
+#footer .footer-logo h1 img {
+  margin-right: 10px;
+}
+
+#supporters .supporter-logo {
+  background-color: white;
+}
+
+#supporters .supporter-logo img {
+  filter: grayscale(1);
+}
+
+#supporters .supporter-logo:hover img {
+  filter: none;
+}
+
+
+#programDetails {
+  margin-top: 2em;
+}
+
+
+#programDetails>table>thead>tr>th {
+  text-align: center;
+  vertical-align: top;
+}
+
+#programDetails>table>tbody>tr>td {
+  text-align: center;
+  vertical-align: middle;
+}
+
+#programDetails>table>tbody>tr {
+  height: 3em;
+}
+
+#programDetails>table>tbody>tr>th {
+  min-width: 8em;
+}
+
+#programDetails>table>tbody>tr>td {
+  min-width: 11em;
+}
+
+#programDetails>table>tbody>tr>td>span {
+  font-size: 0.8em;
+  font-style: italic;
+}
+
+#programDetails>table>tbody>tr>td:empty {
+  background-color: #f6f7fd;
+}
+
+#programDetails>table>tbody>tr.global-event>th {
+  background-color: #f6f6de;
+}
+
+#programDetails>table>tbody>tr.global-event>td {
+  background-color: #f6f6de;
+  font-style: italic;
+}
+
+
+/*  COLORFUL VERSION */
+
+#programDetails>table>tbody>tr.global-event>th {
+  background-color: #fcfcdc3e;
+}
+
+#programDetails>table>tbody>tr.global-event>td {
+  background-color: #fcfcdc3e;
+}
+
+#programDetails>table>tbody>tr>td:empty {
+  background-color: #ffffff;
+}
+
+.familiars{
+  background-color: #0bc60b9b !important;
+}
+
+.euros{
+  background-color: #47bfd69b !important;
+}
+
+.entitats{
+  background-color: #eea3ea9b !important;
+}
+
+.tallers{
+  background-color: #c1f3b89b !important;
+}
+
+.torneigs{
+  background-color: #ef6b6b9b !important;
+}
+
+.torneigs a{
+  color: black !important;
+}
+
+.ameritrash{
+  background-color: #fba7409b !important;
+}
+
+.botigues{
+  background-color: #fbe2409b !important;
+}
+
+.exterior{
+  background-color: #0d85009b !important;
+}
+
