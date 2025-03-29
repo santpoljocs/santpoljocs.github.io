@@ -1,7 +1,20 @@
 body {
   color: #250520;
   /* background-color: #6AD1DD; */
-  background-color: #250520;
+  /* background-color: #250520; */
+  background-color: #FFF;
+}
+
+a {
+  color: #FF3C7C;
+  /* text-decoration: none;
+  transition: 0.5s; */
+}
+
+a:hover, a:active, a:focus {
+  color: #FFB0CA
+  /* outline: none; */
+  /* text-decoration: none; */
 }
 
 #header #logo h1 a, #header #logo h1 a:hover {
@@ -149,6 +162,13 @@ h3{
   padding: 60px 0 40px 0; */
 }
 
+#about h2 {
+  font-size: 36px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: #87EDB9;
+}
+
 
 
 
@@ -165,3 +185,97 @@ h3{
   border-radius: 50px;
   transition: all 0.4s; */
 }
+
+
+
+.section-header::before {
+  /* content: "";
+  position: absolute;
+  display: block;
+  width: 60px;
+  height: 5px; */
+  background: #FF3C7C;
+  /* bottom: 0;
+  left: calc(50% - 25px); */
+}
+
+#activitats{
+  padding-top: 60px;
+  background-color: #f6f7fd;
+}
+
+
+#venue .venue-info ul {
+  /* font-size: 36px; */
+  /* font-weight: 700; */
+  /* color: #FFB0CA; */
+  color: #FFF;
+}
+
+#venue .venue-info ul {
+  list-style-type: none;
+}
+
+#venue .venue-info ul > li > i {
+  /* font-size: 36px; */
+  /* font-weight: 700; */
+  /* color: #FFB0CA; */
+  color: #87EDB9;
+}
+
+
+#contact .contact-phone {
+  border-left: none;
+}
+
+#contact .contact-instagram {
+  margin-bottom: 20px;
+}
+
+@media (min-width: 768px) {
+  #contact .contact-instagram {
+    padding: 20px 0;
+  }
+}
+
+@media (min-width: 768px) {
+  #contact .contact-instagram {
+    border-right: 1px solid #ddd;
+  }
+}
+
+#footer .footer-logo h1 {
+  text-transform: uppercase;
+  color: #FFF !important;
+  font-size: 36px;
+  font-weight: 700;
+  letter-spacing: 3px;
+}
+
+#footer .footer-logo h1 img {
+  margin-right: 10px;
+}
+
+#footer .footer-top h4 {
+  /* font-size: 14px;
+  font-weight: bold;
+  color: #fff;
+  text-transform: uppercase;
+  position: relative;
+  padding-bottom: 12px; */
+  border-bottom: 2px solid #FF3C7C;
+}
+
+#supporters .supporter-logo {
+  background-color: white;
+}
+
+#supporters .supporter-logo img {
+  filter: grayscale(1);
+}
+
+#supporters .supporter-logo:hover img {
+  filter: none;
+}
+
+
