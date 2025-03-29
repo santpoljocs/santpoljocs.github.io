@@ -240,20 +240,15 @@ h3{
 
 @media (min-width: 768px) {
   #contact .contact-instagram {
+    border-right: 1px solid #ddd;
     padding: 20px 0;
   }
 }
 
 @media (min-width: 768px) {
-  #contact .contact-instagram {
-    border-right: 1px solid #ddd;
-  }
-}
-
-@media (min-width: 768px) {
   #contact .contact-twitter {
-    /* padding: 20px 0; */
     border-right: 1px solid #ddd;
+    padding: 20px 0;
   }
 }
 
