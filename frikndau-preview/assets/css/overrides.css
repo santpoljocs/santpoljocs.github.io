@@ -108,7 +108,7 @@ h3{
 @media (max-width: 768px) {
   #hero{
     background-image: url("../img/fnd2025-bg-vertical.jpg");
-    background-position: bottom;
+    background-position: center;
   }
 }
 
