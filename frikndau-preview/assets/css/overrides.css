@@ -105,6 +105,12 @@ h3{
   background-color: initial;
 }
 
+@media (max-width: 768px) {
+  #hero{
+    background-image: url("../img/fnd2025-bg-vertical.jpg");
+  }
+}
+
 #hero:before {
   background: initial;
 }
