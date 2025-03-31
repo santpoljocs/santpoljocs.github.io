@@ -355,3 +355,26 @@ h3{
 #faq .faq-list .collapsed {
   color: #250520;
 }
+
+
+#gallery .big-number{
+  display: block;
+  font-size: 300%;
+  color: #FF3C7C;
+  font-weight: 800;
+  margin-bottom: -10px;
+  width: 100%;
+  text-align: center;
+  /* width: 100%; */
+}
+
+#gallery .number-details{
+  display: block;
+  width: 100%;
+  text-align: center;
+  color: #9195a2;
+  /* font-size: 300%;
+  color: #FF3C7C;
+  font-weight: 800;
+  margin-bottom: -10px; */
+}
