@@ -1,156 +1,237 @@
 body {
-  /* background-color: #f6f6de; */
-  background-color: #f6e5d7;
-  color: #1b2a2f;
+  color: #250520;
+  /* background-color: #6AD1DD; */
+  /* background-color: #250520; */
+  background-color: #FFF;
 }
 
-#header #logo h1 a,
-#header #logo h1 a:hover {
-  color: #1b2a2f;
+a {
+  color: #FF3C7C;
+  /* text-decoration: none;
+  transition: 0.5s; */
 }
 
-#header #logo img {
-  vertical-align: text-top;
+a:hover, a:active, a:focus {
+  color: #FFB0CA
+  /* outline: none; */
+  /* text-decoration: none; */
 }
 
-#hero>div>p>span {
-  color: #f82249;
-  text-transform: uppercase;
+#header #logo h1 a, #header #logo h1 a:hover {
+  color: #250520;
 }
 
-@media (max-width: 992px) {
-  #header #logo img {
-    max-height: 40px;
-  }
+#header.header-scrolled{
+  background-color: #250520;
 }
 
-#header.header-scrolled #logo h1 a {
-  color: #f6f6de;
+#header.header-scrolled #logo h1 a, #header #logo h1 a:hover {
+  color: #87EDB9;
 }
 
-#header.header-scrolled .mobile-nav-toggle {
-  color: #f6f6de;
+h1{
+  font-family: "countach", sans-serif !important;
+  font-weight: 700;
+  font-style: normal;
+  color: #250520 !important;
 }
 
-#header.header-scrolled .navbar a,
-#header.header-scrolled .navbar a:focus {
-  color: rgb(246 246 223 / 54%);
+h2{
+  color: #87EDB9;
+
 }
 
-#header.header-scrolled .navbar a:hover,
-#header.header-scrolled .navbar .active,
-#header.header-scrolled .navbar .active:focus,
-#header.header-scrolled .navbar li:hover>a {
-  color: #f6f6de;
+h3{
+  color: #FF3C7C
 }
 
-#header.header-scrolled .navbar a,
-#header.header-scrolled .navbar a:focus {
-  color: rgb(246 246 223 / 54%);
+.navbar a:hover, .navbar .active, .navbar .active:focus, .navbar li:hover>a {
+  color: #87EDB9;
 }
 
-#header.header-scrolled .navbar-mobile a,
-#header.header-scrolled .navbar-mobile a:focus {
-  color: #1b2a2f;
+.navbar a, .navbar a:focus {
+  /* display: flex;
+  align-items: center;
+  justify-content: space-between; */
+  color:#25052045
+   /* rgba(202, 206, 221, 0.8); */
+  /* font-family: "Raleway", sans-serif;
+  font-weight: 600;
+  font-size: 14px;
+  white-space: nowrap;
+  transition: 0.3s;
+  position: relative;
+  padding: 6px 4px; */
 }
 
-#header.header-scrolled .navbar-mobile .mobile-nav-toggle {
-  color: #1b2a2f;
+.navbar>ul>li>a:before {
+  /* content: "";
+  position: absolute;
+  width: 0;
+  height: 2px;
+  bottom: -6px;
+  left: 0; */
+  background-color: #FF3C7C;
+  /* visibility: hidden;
+  transition: all 0.3s ease-in-out 0s; */
 }
 
-#header.header-scrolled .navbar-mobile a:hover,
-#header.header-scrolled .navbar-mobile .active,
-#header.header-scrolled .navbar-mobile .active:focus,
-#header.header-scrolled .navbar-mobile li:hover>a {
-  color: #f82249;
+
+.header-scrolled .navbar a:hover, .header-scrolled .navbar .active, .header-scrolled .navbar .active:focus, .header-scrolled .navbar li:hover>a {
+  color: #87EDB9;
 }
+
+.header-scrolled .navbar a{
+  color: #FFF;
+}
+
+
+.navbar-mobile a, .navbar-mobile a:focus {
+  /* padding: 10px 20px;
+  font-size: 15px; */
+  color: #250520 !important;
+}
+
+
+
+.navbar-mobile a:hover, .navbar-mobile .active, .navbar-mobile li:hover>a {
+  color: #FF3C7C !important;
+}
+
+
 
 #hero {
-  background-image: none;
+  background-image: url("../img/fnd2025.jpg");
   background-color: initial;
+}
+
+@media (max-width: 768px) {
+  #hero{
+    background-image: url("../img/fnd2025-bg-vertical.jpg");
+    background-position: center;
+  }
 }
 
 #hero:before {
   background: initial;
 }
 
-#hero h1 {
-  color: initial;
+#hero h1.hero-big{
+  font-size: 750%;
+  -webkit-text-stroke: 2px #87edb9;
+  /* text-stroke: 2px #87edb9; */
 }
 
-#hero p {
-  color: initial;
+@media (max-width: 991px) {
+  #hero h1.hero-big{
+    font-size: 600%;
+    /* -webkit-text-stroke: 2px #87edb9; */
+    /* text-stroke: 2px #87edb9; */
+  }
 }
 
 #hero h1 span {
-  /*color: #DF722D;*/
+  color: #FF3C7C;
 }
 
-#hero .logo {
-  height: 50vh;
-  width: auto;
-  min-height: 200px;
-  max-height: 600px;
-  /* background: radial-gradient(#f82249 50%, rgba(101, 111, 150, 0.15) 52%);
-  border-radius: 50%; */
-  display: block;
-  position: relative;
-  overflow: hidden;
+#hero p {
+  color: #FFFFFF;
+  font-weight: 700;
+  font-size: 20px;
 }
 
 #hero .about-btn {
-  color: #f82249;
-  border: 2px solid #f82249;
+  /* font-family: "Raleway", sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 12px 32px;
+  border-radius: 50px;
+  transition: 0.5s;
+  line-height: 1;
+  margin: 10px;
+  color: #fff;
+  animation-delay: 0.8s; */
+  border: 2px solid #FF3C7C;
 }
 
 #hero .about-btn:hover {
-  background: #f82249;
+  background: #FF3C7C;
   color: #fff;
 }
 
-.navbar a,
-.navbar a:focus {
-  color: rgba(27, 42, 47, 0.8);
+
+#about {
+  /* background: url("../img/fnd2025.jpg"); */
+  /* background-size: cover;
+  overflow: hidden;
+  position: relative;
+  color: #fff;
+  padding: 60px 0 40px 0; */
 }
 
-.navbar a:hover,
-.navbar .active,
-.navbar .active:focus,
-.navbar li:hover>a {
-  color: #1b2a2f;
+#about h2 {
+  font-size: 36px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: #87EDB9;
 }
 
-.navbar-mobile {
-  background: #f6f6de;
+
+
+
+.back-to-top {
+  /* position: fixed;
+  visibility: hidden;
+  opacity: 0;
+  right: 15px;
+  bottom: 15px;
+  z-index: 996; */
+  background: #FF3C7C;
+  /* width: 40px;
+  height: 40px;
+  border-radius: 50px;
+  transition: all 0.4s; */
 }
 
-.navbar-mobile ul {
-  background-color: #f6f6de;
+
+
+.section-header::before {
+  /* content: "";
+  position: absolute;
+  display: block;
+  width: 60px;
+  height: 5px; */
+  background: #FF3C7C;
+  /* bottom: 0;
+  left: calc(50% - 25px); */
 }
 
-.mobile-nav-toggle {
-  color: #1b2a2f;
+#activitats{
+  padding-top: 60px;
+  background-color: #f6f7fd;
 }
 
-/*--------------------------------------------------------------
-# Activitats Section
---------------------------------------------------------------*/
-#activitats {
-  padding: 60px 0 30px 0;
+
+#venue .venue-info ul {
+  /* font-size: 36px; */
+  /* font-weight: 700; */
+  /* color: #FFB0CA; */
+  color: #FFF;
 }
 
-/*--------------------------------------------------------------
-# Venue Section
---------------------------------------------------------------*/
-
-#venue .venue-info {
-  /* background: url("../img/venue-gallery/parc-litoral-1.jpeg") top center no-repeat; */
-  background-size: cover;
+#venue .venue-info ul {
+  list-style-type: none;
 }
 
-#venue .venue-info ul li {
-  color: white;
+#venue .venue-info ul > li > i {
+  /* font-size: 36px; */
+  /* font-weight: 700; */
+  /* color: #FFB0CA; */
+  color: #87EDB9;
 }
+
 
 #contact .contact-phone {
   border-left: none;
@@ -160,21 +241,27 @@ body {
   margin-bottom: 20px;
 }
 
-@media (min-width: 768px) {
-  #contact .contact-instagram {
-    padding: 20px 0;
-  }
+#contact .contact-twitter{
+  margin-bottom: 20px;
 }
 
 @media (min-width: 768px) {
   #contact .contact-instagram {
     border-right: 1px solid #ddd;
+    padding: 20px 0;
+  }
+}
+
+@media (min-width: 768px) {
+  #contact .contact-twitter {
+    border-right: 1px solid #ddd;
+    padding: 20px 0;
   }
 }
 
 #footer .footer-logo h1 {
   text-transform: uppercase;
-  color: #f6f6de;
+  color: #FFF !important;
   font-size: 36px;
   font-weight: 700;
   letter-spacing: 3px;
@@ -182,6 +269,31 @@ body {
 
 #footer .footer-logo h1 img {
   margin-right: 10px;
+}
+
+#footer .footer-top h4 {
+  /* font-size: 14px;
+  font-weight: bold;
+  color: #fff;
+  text-transform: uppercase;
+  position: relative;
+  padding-bottom: 12px; */
+  border-bottom: 2px solid #FF3C7C;
+}
+
+#footer .footer-top .footer-links ul i {
+  /* padding-right: 5px; */
+  color: #FF3C7C;
+  /* font-size: 18px; */
+}
+
+#footer .footer-top .footer-links ul a:hover {
+  color: #87EDB9;
+}
+
+#footer .footer-top .social-links a:hover {
+  background: #FF3C7C;
+  color: #fff;
 }
 
 #supporters .supporter-logo {
@@ -197,99 +309,72 @@ body {
 }
 
 
-#programDetails {
-  margin-top: 2em;
+
+#contact .contact-info i {
+  /* font-size: 48px;
+  display: inline-block;
+  margin-bottom: 10px; */
+  color: #87EDB9;
+}
+
+#contact .contact-info h3 {
+  /* font-size: 18px;
+  margin-bottom: 15px;
+  font-weight: bold;
+  text-transform: uppercase; */
+  color: #87EDB9;
+}
+
+#contact .contact-info a {
+  color: #FF3C7C;
+}
+
+#contact .contact-info a:hover, #contact .contact-info a:active {
+  color: #FFB0CA;
 }
 
 
-#programDetails>table>thead>tr>th {
+
+#faq .faq-list .collapsed:hover {
+  color: #FF3C7C;
+}
+
+#faq .faq-list .question {
+  /* display: block;
+  position: relative;
+  font-family: #f82249;
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: 400;
+  padding-left: 25px;
+  cursor: pointer; */
+  color: #FF3C7C;
+  /* transition: 0.3s; */
+}
+
+#faq .faq-list .collapsed {
+  color: #250520;
+}
+
+
+#gallery .big-number{
+  display: block;
+  font-size: 300%;
+  color: #FF3C7C;
+  font-weight: 800;
+  margin-bottom: -10px;
+  width: 100%;
   text-align: center;
-  vertical-align: top;
+  /* width: 100%; */
 }
 
-#programDetails>table>tbody>tr>td {
+#gallery .number-details{
+  display: block;
+  width: 100%;
   text-align: center;
-  vertical-align: middle;
+  color: #9195a2;
+  /* font-size: 300%;
+  color: #FF3C7C;
+  font-weight: 800;
+  margin-bottom: -10px; */
 }
-
-#programDetails>table>tbody>tr {
-  height: 3em;
-}
-
-#programDetails>table>tbody>tr>th {
-  min-width: 8em;
-}
-
-#programDetails>table>tbody>tr>td {
-  min-width: 11em;
-}
-
-#programDetails>table>tbody>tr>td>span {
-  font-size: 0.8em;
-  font-style: italic;
-}
-
-#programDetails>table>tbody>tr>td:empty {
-  background-color: #f6f7fd;
-}
-
-#programDetails>table>tbody>tr.global-event>th {
-  background-color: #f6f6de;
-}
-
-#programDetails>table>tbody>tr.global-event>td {
-  background-color: #f6f6de;
-  font-style: italic;
-}
-
-
-/*  COLORFUL VERSION */
-
-#programDetails>table>tbody>tr.global-event>th {
-  background-color: #fcfcdc3e;
-}
-
-#programDetails>table>tbody>tr.global-event>td {
-  background-color: #fcfcdc3e;
-}
-
-#programDetails>table>tbody>tr>td:empty {
-  background-color: #ffffff;
-}
-
-.familiars{
-  background-color: #0bc60b9b !important;
-}
-
-.euros{
-  background-color: #47bfd69b !important;
-}
-
-.entitats{
-  background-color: #eea3ea9b !important;
-}
-
-.tallers{
-  background-color: #c1f3b89b !important;
-}
-
-.torneigs{
-  background-color: #ef6b6b9b !important;
-}
-
-.torneigs a{
-  color: black !important;
-}
-
-.ameritrash{
-  background-color: #fba7409b !important;
-}
-
-.botigues{
-  background-color: #fbe2409b !important;
-}
-
-.exterior{
-  background-color: #0d85009b !important;
-}
-
