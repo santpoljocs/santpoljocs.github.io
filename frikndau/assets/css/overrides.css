@@ -308,6 +308,10 @@ h3{
   filter: none;
 }
 
+#supporters .supporter-logo:hover img {
+  transform: scale(1.4);
+}
+
 
 
 #contact .contact-info i {
