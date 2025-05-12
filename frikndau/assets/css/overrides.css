@@ -312,6 +312,23 @@ h3{
   transform: scale(1.4);
 }
 
+#supporters .supporter-logo.tag-editorial a::before{
+  content: "editorial";
+  float: right;
+  display: block;
+  position: relative;
+  height:1em;
+  margin-bottom: -1em;
+  line-height: 1em;
+  z-index: 1000;
+  text-transform: uppercase;
+  background-color: #FFB0CA;
+  color: white;
+  font-size: small;
+  padding: 0 2px
+}
+
+
 
 
 #contact .contact-info i {
