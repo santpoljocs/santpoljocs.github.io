@@ -453,6 +453,22 @@ h3{
   font-style: italic;
 }
 
+#programDetails td img{
+  max-width: 100%;
+  max-height: 3.5em;
+}
+
+#programDetails ul {
+  margin-top: 10px;
+  margin-bottom: 0px;
+}
+
+#programDetails ul li{
+  font-size: 12px;
+  text-align: left;
+  margin-bottom: 0px;
+}
+
 
 /*  COLORFUL VERSION */
 
