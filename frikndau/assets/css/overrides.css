@@ -399,3 +399,108 @@ h3{
   font-weight: 800;
   margin-bottom: -10px; */
 }
+
+
+
+
+
+/* ==== */
+
+
+
+#programDetails {
+  margin-top: 2em;
+}
+
+
+#programDetails>table>thead>tr>th {
+  text-align: center;
+  vertical-align: top;
+}
+
+#programDetails>table>tbody>tr>td {
+  text-align: center;
+  vertical-align: middle;
+}
+
+#programDetails>table>tbody>tr {
+  height: 3em;
+}
+
+#programDetails>table>tbody>tr>th {
+  min-width: 8em;
+}
+
+#programDetails>table>tbody>tr>td {
+  min-width: 11em;
+}
+
+#programDetails>table>tbody>tr>td>span {
+  font-size: 0.8em;
+  font-style: italic;
+}
+
+#programDetails>table>tbody>tr>td:empty {
+  background-color: #f6f7fd;
+}
+
+#programDetails>table>tbody>tr.global-event>th {
+  background-color: #f6f6de;
+}
+
+#programDetails>table>tbody>tr.global-event>td {
+  background-color: #f6f6de;
+  font-style: italic;
+}
+
+
+/*  COLORFUL VERSION */
+
+#programDetails>table>tbody>tr.global-event>th {
+  background-color: #fcfcdc3e;
+}
+
+#programDetails>table>tbody>tr.global-event>td {
+  background-color: #fcfcdc3e;
+}
+
+#programDetails>table>tbody>tr>td:empty {
+  background-color: #ffffff;
+}
+
+.familiars{
+  background-color: #0bc60b9b !important;
+}
+
+.euros{
+  background-color: #47bfd69b !important;
+}
+
+.entitats{
+  background-color: #eea3ea9b !important;
+}
+
+.tallers{
+  background-color: #c1f3b89b !important;
+}
+
+.torneigs{
+  background-color: #ef6b6b9b !important;
+}
+
+.torneigs a{
+  color: black !important;
+}
+
+.ameritrash{
+  background-color: #fba7409b !important;
+}
+
+.botigues{
+  background-color: #fbe2409b !important;
+}
+
+.exterior{
+  background-color: #0d85009b !important;
+}
+
