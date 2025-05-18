@@ -441,6 +441,17 @@ h3{
   display: block;
 }
 
+#programDetails>table>tbody>tr>td>span.location {
+  font-size: 0.7em;
+  font-style: normal;
+  display: block;
+  text-align: right;
+  font-weight: bold;
+  opacity: 0.6;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
 #programDetails>table>tbody>tr>td:empty {
   background-color: #f6f7fd;
 }
