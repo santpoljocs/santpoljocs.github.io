@@ -455,7 +455,8 @@ h3{
 
 #programDetails td img{
   max-width: 100%;
-  max-height: 3.5em;
+  /* max-height: 3.5em; */
+  max-height: 1.4em;
 }
 
 #programDetails ul {
@@ -469,6 +470,9 @@ h3{
   margin-bottom: 0px;
 }
 
+#programDetails, #programDetails td, #programDetails th{
+  border: 1px solid red;
+}
 
 /*  COLORFUL VERSION */
 
@@ -489,7 +493,7 @@ h3{
 }
 
 .euros{
-  background-color: #47bfd69b !important;
+  background-color: lightskyblue !important;
 }
 
 .entitats{
@@ -518,5 +522,9 @@ h3{
 
 .exterior{
   background-color: #0d85009b !important;
+}
+
+.prototips{
+  background-color: lightcyan !important;
 }
 
