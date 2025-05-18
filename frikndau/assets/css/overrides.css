@@ -524,10 +524,12 @@ h3 {
 
 #programDetails>table>tbody>tr.global-event>th {
   background-color: #fcfcdc3e;
+  opacity: 0.5;
 }
 
 #programDetails>table>tbody>tr.global-event>td {
   background-color: #fcfcdc3e;
+  opacity: 0.5;
 }
 
 #programDetails>table>tbody>tr>td:empty {
