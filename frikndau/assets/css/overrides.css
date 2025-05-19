@@ -476,6 +476,10 @@ h3 {
   margin-bottom: 0;
 }
 
+#programDetails>table>tbody>tr>td>span.age-limit {
+  opacity: 0.6;  
+}
+
 #programDetails>table>tbody>tr>td:empty {
   background-color: #f6f7fd;
 }
