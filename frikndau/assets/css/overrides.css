@@ -452,17 +452,20 @@ h3 {
 
 #programDetails>table>tbody>tr>th {
   min-width: 8em;
+  width: 8%;
 }
 
 #programDetails>table>tbody>tr>td {
   min-width: 11em;
   font-size: 15px;
+  max-width: 10%;
 }
 
 #programDetails>table>tbody>tr>td>span {
   font-size: 0.8em;
   font-weight: normal;
   display: block;
+  /* max-width: 12vw; */
 }
 
 #programDetails>table>tbody>tr>td>span.location {
@@ -503,9 +506,11 @@ h3 {
   /* max-width: 44%; */
   object-fit: contain;
   display: inline-block;
-  margin: 4px;
-  width:3.4em;
-  height: 3.4em;
+  margin-top: 10px;
+  margin-left: 4px;
+  margin-right: 4px;
+  width:3.7em;
+  height: 3.7em;
   /* background-color: #ffffff60; */
   background-color: white;
   padding: 3px;
