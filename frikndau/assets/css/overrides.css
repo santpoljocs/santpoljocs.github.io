@@ -209,6 +209,16 @@ h3 {
   transition: all 0.4s; */
 }
 
+#schedule .schedule-item h4 {
+  color: #FF3C7C;
+}
+
+#schedule .schedule-item p {
+  color: #250520;
+  margin-left: 1em;
+  margin-bottom: 0;
+  font-style: normal;
+}
 
 
 .section-header::before {
