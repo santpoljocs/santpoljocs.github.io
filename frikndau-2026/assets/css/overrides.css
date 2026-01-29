@@ -615,3 +615,17 @@ h3 {
 .prototips {
   background-color: lightcyan !important;
 }
+
+/* Hide sections while program is being finalized */
+#activitats {
+  display: none;
+}
+
+#schedule {
+  display: none;
+}
+
+/* Hide all supporter logos except Ajuntament (first one) */
+.supporters-wrap .col-lg-3:not(:first-child) {
+  display: none;
+}
