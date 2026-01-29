@@ -115,13 +115,13 @@ h3 {
 
 
 #hero {
-  background-image: url("../img/fnd2025.jpg");
+  background-image: url("../img/fnd2026.jpg");
   background-color: initial;
 }
 
 @media (max-width: 768px) {
   #hero {
-    background-image: url("../img/fnd2025-bg-vertical.jpg");
+    background-image: url("../img/fnd2026-bg-vertical.jpg");
     background-position: center;
   }
 }
@@ -177,7 +177,7 @@ h3 {
 
 
 #about {
-  /* background: url("../img/fnd2025.jpg"); */
+  /* background: url("../img/fnd2026.jpg"); */
   /* background-size: cover;
   overflow: hidden;
   position: relative;
