@@ -115,13 +115,14 @@ h3 {
 
 
 #hero {
-  background-image: url("../img/fnd2026.jpg");
+  /* background-image: url("../img/fnd2026.jpg"); */
   background-color: initial;
+  background-color: #A049F1;
 }
 
 @media (max-width: 768px) {
   #hero {
-    background-image: url("../img/fnd2026-bg-vertical.jpg");
+    /* background-image: url("../img/fnd2026-bg-vertical.jpg"); */
     background-position: center;
   }
 }
