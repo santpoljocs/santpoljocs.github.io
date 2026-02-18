@@ -1,0 +1,13 @@
+#header .logo {
+    text-transform: none;
+    color: #556270;
+}
+
+#header .logo img {
+    margin-right: 10px;
+    vertical-align: text-top;
+}
+
+section#testimonials{
+    padding-bottom: 10px;
+}
