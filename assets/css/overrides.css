@@ -149,10 +149,21 @@ h3 {
   color: #FF3C7C;
 }
 
+#hero p span {
+  white-space: nowrap;
+}
+
 #hero p {
   color: #FFFFFF;
+  background-color: #FF3C7C;
   font-weight: 700;
   font-size: 20px;
+  border-radius: 20px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 20px !important;
+
 }
 
 #hero .about-btn {
