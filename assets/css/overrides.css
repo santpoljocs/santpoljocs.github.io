@@ -117,7 +117,6 @@ h3 {
 #hero {
   background-image: url("../img/fnd2026-bg-horizontal.jpg");
   background-color: initial;
-  background-color: #A049F1;
 }
 
 @media (max-width: 768px) {
