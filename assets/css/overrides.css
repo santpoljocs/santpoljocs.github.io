@@ -96,6 +96,13 @@ h3 {
   color: #FFF;
 }
 
+.mobile-nav-toggle {
+  color: #250520 !important;
+}
+
+.header-scrolled .mobile-nav-toggle {
+  color: #FFF !important;
+}
 
 .navbar-mobile a,
 .navbar-mobile a:focus {
