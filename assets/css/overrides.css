@@ -370,6 +370,22 @@ h3 {
   padding: 0 2px
 }
 
+#supporters .supporter-logo.tag-botiga a::before {
+  content: "botiga";
+  float: right;
+  display: block;
+  position: relative;
+  height: 1em;
+  margin-bottom: -1em;
+  line-height: 1em;
+  z-index: 1000;
+  text-transform: uppercase;
+  background-color: #FFB0CA;
+  color: white;
+  font-size: small;
+  padding: 0 2px
+}
+
 
 
 
@@ -640,7 +656,7 @@ h3 {
   display: none;
 }
 
-/* Hide all supporter logos except Ajuntament (first one) */
-.supporters-wrap .col-lg-3:not(:first-child) {
+/* Hide all supporter logos except marked ones */
+.supporters-wrap .col-lg-3.d-none-temp {
   display: none;
 }
