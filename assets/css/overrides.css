@@ -635,9 +635,6 @@ h3 {
 }
 
 /* Hide sections while program is being finalized */
-#activitats {
-  display: none;
-}
 
 #schedule {
   display: none;
