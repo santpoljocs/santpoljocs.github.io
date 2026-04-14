@@ -386,6 +386,22 @@ h3 {
   padding: 0 2px
 }
 
+#supporters .supporter-logo.tag-entitat a::before {
+  content: "entitat";
+  float: right;
+  display: block;
+  position: relative;
+  height: 1em;
+  margin-bottom: -1em;
+  line-height: 1em;
+  z-index: 1000;
+  text-transform: uppercase;
+  background-color: #FFB0CA;
+  color: white;
+  font-size: small;
+  padding: 0 2px
+}
+
 
 
 
