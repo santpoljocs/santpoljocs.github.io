@@ -666,9 +666,6 @@ h3 {
   background-color: lightcyan !important;
 }
 
-/* Hide sections while program is being finalized */
-
-
 /* Hide all supporter logos except marked ones */
 .supporters-wrap .col-lg-3.d-none-temp {
   display: none;
