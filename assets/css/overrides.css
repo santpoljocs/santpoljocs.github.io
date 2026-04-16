@@ -642,6 +642,14 @@ h3 {
   background-color: #eea3ea9b !important;
 }
 
+#programDetails>table>tbody>tr.rifa-event>th,
+#programDetails>table>tbody>tr.rifa-event>td {
+  background-color: white;
+  font-weight: bold;
+  text-align: center;
+  vertical-align: middle;
+}
+
 .torneigs a {
   color: black !important;
 }
