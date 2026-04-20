@@ -589,6 +589,11 @@ h3 {
 
 }
 
+#programDetails td img.single-logo {
+  width: 6em;
+  height: 6em;
+}
+
 #programDetails ul {
   margin-top: 10px;
   margin-bottom: 0px;
