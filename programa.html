@@ -69,6 +69,12 @@
         padding-top: 50px !important;
       } */
 
+      /* Print-friendly version (?print=true) */
+      body.print-mode #header { display: none !important; }
+      body.print-mode #footer { display: none !important; }
+      body.print-mode { background: #fff !important; }
+      body.print-mode #schedule { padding-top: 30px !important; background: #fff !important; }
+      body.print-mode .print-hide { display: none !important; }
     </style>
 
   <!-- =======================================================
@@ -81,6 +87,11 @@
 </head>
 
 <body>
+  <script>
+    if (new URLSearchParams(window.location.search).get('print') === 'true') {
+      document.body.classList.add('print-mode');
+    }
+  </script>
   <!-- ======= Header ======= -->
   <header id="header" class="d-flex align-items-center">
     <div class="container-fluid container-xxl d-flex align-items-center">
@@ -124,7 +135,7 @@
           <h2>Programa detallat</h2>
         </div>
         <div class="text-end">
-          <a class="btn-secondary scrollto" href="#schedule2" role="button"><i class="bi bi-calendar3"></i> Horaris
+          <a class="btn-secondary scrollto print-hide" href="#schedule2" role="button"><i class="bi bi-calendar3"></i> Horaris
             de les activitats puntuals &darr;</a>
         </div>
 
@@ -373,11 +384,7 @@
         <div class="section-header" id="schedule2">
           <h2>Activitats puntuals</h2>
         </div>
-        <!-- <div class="text-end">
-          <a class="btn btn-danger" href="assets/img/planning.png" role="button"><i class="bi bi-zoom-in"></i> Veure com
-            a imatge</a>
-        </div> -->
-        <div class="text-end">
+        <div class="text-end print-hide">
           <a class="btn-secondary scrollto" href="#schedule1" role="button"><i class="bi bi-calendar3"></i> Programa general &uarr;</a>
         </div>
       </div>
@@ -531,6 +538,11 @@
         </table>
       </div>
 
+      <div class="container print-hide">
+        <div class="text-end mt-4">
+        <a class="btn-secondary" href="?print=true" role="button"><i class="bi bi-printer"></i> Print version</a>
+        </div>
+      </div>
 
     </section>
     <!-- End Schedule Section -->
@@ -608,7 +620,7 @@
   </footer>
   <!-- End  Footer -->
 
-  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center print-hide"><i
       class="bi bi-arrow-up-short"></i></a>
 
   <!-- Vendor JS Files -->
