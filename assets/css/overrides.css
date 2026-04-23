@@ -681,8 +681,3 @@ h3 {
 .rol {
   background-color: #c1f3b89b !important;
 }
-
-/* Hide all supporter logos except marked ones */
-.supporters-wrap .col-lg-3.d-none-temp {
-  display: none;
-}
