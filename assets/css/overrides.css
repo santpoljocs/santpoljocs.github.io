@@ -662,6 +662,10 @@ h3 {
   color: black !important;
 }
 
+.torneigs span > a {
+  color: #FF3C7C !important;
+}
+
 .ameritrash {
   background-color: #fba7409b !important;
 }
