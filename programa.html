@@ -76,6 +76,55 @@
       body.print-mode #schedule { padding-top: 30px !important; background: #fff !important; }
       body.print-mode .print-hide { display: none !important; }
       body.print-mode a, body.print-mode a:hover, body.print-mode a:focus { color: inherit !important; }
+
+      /* Jocs per zona — card list layout */
+      .zone-list {
+        border-radius: 8px;
+        padding: 1rem 1.25rem;
+        height: 100%;
+        color: #1a1a1a;
+      }
+      .zone-list h4 {
+        margin: 0 0 0.75rem 0;
+        font-size: 1.1rem;
+        font-weight: 700;
+        text-transform: uppercase;
+        letter-spacing: 0.04em;
+        border-bottom: 1px solid rgba(0,0,0,0.2);
+        padding-bottom: 0.4rem;
+      }
+      .zone-list ul {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+      }
+      .zone-list li {
+        padding: 0.3rem 0;
+        font-size: 0.95rem;
+        line-height: 1.35;
+      }
+      .zone-list li + li {
+        border-top: 1px dashed rgba(0,0,0,0.15);
+      }
+      .zone-list .start {
+        display: inline-block;
+        min-width: 3.2em;
+        font-weight: 700;
+        font-variant-numeric: tabular-nums;
+      }
+      .zone-list .duration {
+        color: rgba(0,0,0,0.65);
+        font-size: 0.85em;
+      }
+      .zone-list .age-limit {
+        font-size: 0.75em;
+        color: rgba(0,0,0,0.6);
+        margin-left: 0.3em;
+      }
+      .zones-section h3 {
+        text-align: center;
+        margin: 1.5rem 0 1rem;
+      }
     </style>
 
   <!-- =======================================================
@@ -621,6 +670,134 @@
 
     </section>
     <!-- End Schedule Section -->
+
+    <!-- ======= Per-zone schedule (mockup, hidden — keep for next year) ======= -->
+    <!--
+    <section id="schedule" class="section-with-bg zones-section" style="padding-top: 50px;">
+      <div class="container">
+        <div class="section-header" id="schedule3">
+          <h2>Jocs programats per zona</h2>
+          <p class="text-center"><small>Inclou tots els jocs amb sessió programada. Hora d'inici i durada aproximada.</small></p>
+        </div>
+      </div>
+
+      <div class="container-fluid" style="max-width: 80em;">
+        <h3>Matí</h3>
+        <div class="row g-3">
+          <div class="col-md-6 col-lg-4">
+            <div class="zone-list euros">
+              <h4>Zona Euros / Temàtics</h4>
+              <ul>
+                <li><span class="start">10:00</span> Battlestar Galactica <span class="duration">(4h)</span><span class="age-limit">14+</span></li>
+                <li><span class="start">10:00</span> Wingspan <span class="duration">(1h30)</span><span class="age-limit">12+</span></li>
+                <li><span class="start">10:30</span> Rescate! <span class="duration">(1h30)</span><span class="age-limit">10+</span></li>
+                <li><span class="start">10:30</span> Mall of Horror <span class="duration">(1h30)</span><span class="age-limit">14+</span></li>
+                <li><span class="start">11:30</span> Wingspan <span class="duration">(1h30)</span><span class="age-limit">12+</span></li>
+                <li><span class="start">12:00</span> Rescate! <span class="duration">(1h30)</span><span class="age-limit">10+</span></li>
+                <li><span class="start">12:00</span> Mall of Horror <span class="duration">(1h30)</span><span class="age-limit">14+</span></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4">
+            <div class="zone-list ameritrash">
+              <h4>Zona Ameritrash</h4>
+              <ul>
+                <li><span class="start">10:00</span> Marvel Zombies <span class="duration">(3h)</span><span class="age-limit">12+</span></li>
+                <li><span class="start">10:30</span> One Page Rules <span class="duration">(3h)</span><span class="age-limit">12+</span></li>
+                <li><span class="start">10:30</span> Star Wars X-Wing <span class="duration">(3h)</span><span class="age-limit">12+</span></li>
+                <li><span class="start">10:30</span> Scarface 1920 <span class="duration">(3h)</span><span class="age-limit">14+</span></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4">
+            <div class="zone-list rol">
+              <h4>Zona Rol</h4>
+              <ul>
+                <li><span class="start">10:30</span> Rol per a infants <span class="duration">(1h30)</span><span class="age-limit">8+</span></li>
+                <li><span class="start">10:30</span> <em>L'Illa de la Calavera</em> <span class="duration">(3h)</span><span class="age-limit">12+</span></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4">
+            <div class="zone-list torneigs">
+              <h4>Zona Torneigs</h4>
+              <ul>
+                <li><span class="start">11:00</span> Torneig de Rummikub <span class="duration">(2h30)</span><span class="age-limit">8+</span></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4">
+            <div class="zone-list exterior">
+              <h4>Zona Exterior</h4>
+              <ul>
+                <li><span class="start">12:00</span> Homes llop de Castronegro <span class="duration">(1h30)</span><span class="age-limit">10+</span></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <h3>Tarda</h3>
+        <div class="row g-3">
+          <div class="col-md-6 col-lg-4">
+            <div class="zone-list euros">
+              <h4>Zona Euros / Temàtics</h4>
+              <ul>
+                <li><span class="start">16:00</span> Battlestar Galactica <span class="duration">(4h)</span><span class="age-limit">14+</span></li>
+                <li><span class="start">16:00</span> Modern Art <span class="duration">(1h)</span><span class="age-limit">10+</span></li>
+                <li><span class="start">16:30</span> Rock Hard 1977 <span class="duration">(3h)</span><span class="age-limit">14+</span></li>
+                <li><span class="start">17:30</span> Furnace <span class="duration">(1h)</span><span class="age-limit">12+</span></li>
+                <li><span class="start">18:00</span> Rescate! <span class="duration">(1h30)</span><span class="age-limit">10+</span></li>
+                <li><span class="start">18:30</span> Modern Art <span class="duration">(1h30)</span><span class="age-limit">10+</span></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4">
+            <div class="zone-list ameritrash">
+              <h4>Zona Ameritrash</h4>
+              <ul>
+                <li><span class="start">16:00</span> Thunder Road Vendetta <span class="duration">(2h)</span><span class="age-limit">10+</span></li>
+                <li><span class="start">16:00</span> Space Hulk <span class="duration">(2h)</span><span class="age-limit">12+</span></li>
+                <li><span class="start">16:00</span> One Page Rules <span class="duration">(3h30)</span><span class="age-limit">12+</span></li>
+                <li><span class="start">16:30</span> Scarface 1920 <span class="duration">(3h)</span><span class="age-limit">14+</span></li>
+                <li><span class="start">18:00</span> Thunder Road Vendetta <span class="duration">(2h)</span><span class="age-limit">10+</span></li>
+                <li><span class="start">18:00</span> Space Hulk <span class="duration">(2h)</span><span class="age-limit">12+</span></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4">
+            <div class="zone-list rol">
+              <h4>Zona Rol</h4>
+              <ul>
+                <li><span class="start">16:00</span> <em>Star Wars: L'Era de la Rebel·lió</em> (sessió 1) <span class="duration">(2h)</span><span class="age-limit">12+</span></li>
+                <li><span class="start">16:30</span> <em>La Batalla de les Illes Formigues</em> <span class="duration">(3h)</span><span class="age-limit">16+</span></li>
+                <li><span class="start">18:00</span> <em>Star Wars: L'Era de la Rebel·lió</em> (sessió 2) <span class="duration">(2h)</span><span class="age-limit">12+</span></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4">
+            <div class="zone-list torneigs">
+              <h4>Zona Torneigs</h4>
+              <ul>
+                <li><span class="start">16:30</span> Torneig de Catan <span class="duration">(3h30)</span><span class="age-limit">10+</span></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4">
+            <div class="zone-list exterior">
+              <h4>Zona Exterior</h4>
+              <ul>
+                <li><span class="start">16:30</span> Blood on the Clocktower <span class="duration">(2h)</span><span class="age-limit">14+</span></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <p class="text-center mt-4 print-hide"><small><i class="bi bi-megaphone-fill"></i> <a href="https://docs.google.com/forms/d/e/1FAIpQLSeUPIVmCNU-MzpaUmDnLqIUHx6pkHZSEQXfVuWC3ePt1M3-7w/viewform" target="_blank">Apunteu-vos</a> a les partides que us interessin perquè us puguem reservar plaça.</small></p>
+      </div>
+
+    </section>
+    -->
+    <!-- End Per-zone schedule -->
 
   </main>
   <!-- End #main -->
